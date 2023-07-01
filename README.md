@@ -1,6 +1,6 @@
 # nmap-bootstrap-xsl
 
-Have a nice interface for checking the result of your Nmap scans. This software must not be used by military or secret service organisations.
+Have a nice interface for checking the result of your Nmap scans.
 
 ## How to use
 
@@ -8,10 +8,10 @@ Have a nice interface for checking the result of your Nmap scans. This software 
 - Add the `nmap-bootstrap.xsl` as stylesheet to your Nmap scan with the ``--stylesheet`` argument :
 
   ```sh
-  nmap -sS -T4 -A -sC -oA scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl scanme.nmap.org scanme2.nmap.org
+  nmap -sS -T4 -A -sC -oA scanme --stylesheet https://raw.githubusercontent.com/ryanmrestivo/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl scanme.nmap.org scanme2.nmap.org
   ```
 
-- Direclty open the file ``scanme.xml`` with your web browser, it will be formatted correctly. It should look like the [`scanme.html` sample report](http://htmlpreview.github.io/?https://github.com/honze-net/nmap-bootstrap-xsl/blob/master/scanme.html).
+- Direclty open the file ``scanme.xml`` with your web browser, it will be formatted correctly. It should look like the [`scanme.html` sample report](http://htmlpreview.github.io/?https://github.com/ryanmrestivo/nmap-bootstrap-xsl/blob/master/scanme.html).
 
 ### 2. With a previously-run scan (with XML output)
 
@@ -34,20 +34,20 @@ You will need to download the ``nmap-bootstrap.xsl``stylesheet beforehand.
 Insert
 
   ```
-  <?xml-stylesheet href="https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl" type="text/xsl"?>
+  <?xml-stylesheet href="https://raw.githubusercontent.com/ryanmrestivo/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl" type="text/xsl"?>
   ```
   after `<!DOCTYPE nmaprun>` inside the XML file.
 
 ## Screenshots
 
 ### Scan report
-![scanme screenshot 1](https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/scanme-screenshot1.png)
+![scanme screenshot 1](https://raw.githubusercontent.com/ryanmrestivo/nmap-bootstrap-xsl/master/scanme-screenshot1.png)
 
 ### Detailed overview
-![scanme screenshot 2](https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/scanme-screenshot2.png)
+![scanme screenshot 2](https://raw.githubusercontent.com/ryanmrestivo/nmap-bootstrap-xsl/master/scanme-screenshot2.png)
 
 ### Summary table
-![scanme screenshot 2](https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/scanme-screenshot3.png)
+![scanme screenshot 2](https://raw.githubusercontent.com/ryanmrestivo/nmap-bootstrap-xsl/master/scanme-screenshot3.png)
 
 ## Demos
 

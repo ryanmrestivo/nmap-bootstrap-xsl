@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 Nmap Bootstrap XSL
-Creative Commons BY-SA
-This software must not be used by military or secret service organisations.
-Andreas Hontzia (@honze_net)
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat"/>
@@ -308,15 +305,6 @@ Andreas Hontzia (@honze_net)
             
           </script>
         </div>
-        <footer class="footer">
-          <div class="container">
-            <p class="text-muted">
-              This report was generated with <a href="https://github.com/honze-net/nmap-bootstrap-xsl">Nmap Bootstrap XSL</a>.<br/>
-              Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA</a>.<br/>
-              Designed and built by Andreas Hontzia (<a href="https://www.twitter.com/honze_net">@honze_net</a>).<br/>
-            </p>
-          </div>
-        </footer>
       </body>
     </html>
   </xsl:template>
